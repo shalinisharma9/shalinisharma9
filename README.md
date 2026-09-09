@@ -1,6 +1,6 @@
 
 
-<img src="assets/banner.png" alt="Shalini Sharma GitHub Banner" width="100%"/>
+<img src="banner.png.jpeg" alt="Shalini Sharma GitHub Banner" width="100%"/>
 
 # Hi, I'm Shalini Sharma ⚡
 

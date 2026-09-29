@@ -16,11 +16,11 @@
 
 ## 👋 About Me
 
-Hi! I'm **Shalini Sharma**, a B.A. Programme student with an academic background in **Advertising, Sales Promotion, Sales & Marketing, and Economics**.
+Hi! I'm **Shalini Sharma**, a B.A. Programme (**Advertising, Sales Promotion, Sales & Marketing, and Economics**.)
 
 My academic background has helped me understand how businesses communicate with customers, promote products, understand markets, and make business decisions.
 
-I am now exploring **analytics** because I want to understand the data behind marketing and business decisions. I am interested in learning how data can help businesses understand customers, measure marketing performance, identify trends, and make better decisions.
+I am now exploring **marketing analytics**  I want to understand the data behind marketing and business decisions. I am interested in learning how data can help businesses understand customers, measure marketing performance, identify trends, and make better decisions.
 
 Alongside my studies, I have explored **marketing-related activities, poster designing, blog writing, and video editing**. These experiences have helped me develop creativity, communication, and an understanding of how content can support marketing.
 
@@ -30,7 +30,6 @@ I am currently building my technical skills in **Python, SQL, Power BI, Excel, S
 
 ## 🎯 Career Focus
 
-**Aspiring Marketing & Business Analytics Professional**
 
 I want to build a career where I can combine:
 

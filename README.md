@@ -16,7 +16,7 @@
 
 ## 👋 About Me
 
-Hi! I'm **Shalini Sharma**, a B.A. Programme (**Advertising, Sales Promotion, Sales & Marketing, and Economics**.)
+Hi! I'm **Shalini Sharma**,pursuing a B.A. Programme (**Advertising, Sales Promotion, Sales & Marketing, and Economics**.)
 
 My academic background has helped me understand how businesses communicate with customers, promote products, understand markets, and make business decisions.
 

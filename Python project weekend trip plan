@@ -1,0 +1,317 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNBh8pbHE+VWED+FY0QSE8F",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shalinisharma9/shalinisharma9/blob/main/Python%20project%20weekend%20trip%20plan\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VyIELObhkO0Y",
+        "outputId": "d71b8c97-5aad-4ae1-f81e-6d0851f9759f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "----WEEKEND TRIP PLANNER----\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"----WEEKEND TRIP PLANNER----\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "destination = input(\"enter your destination:\")\n",
+        "print(\"My destination is:\", destination)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QmelukimkmU0",
+        "outputId": "ab115da0-936c-400a-d93f-8c293188a866"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your destination:Jaipur\n",
+            "My destination is: Jaipur\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "transport = float(input(\"Enter your transport cost:\"))\n",
+        "budget = float(input(\"Enter your total budeget:Rs.\"))\n",
+        "\n",
+        "print(\"transport cost Rs :\" ,transport)\n",
+        "print(\"My budget:\",budget)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pkg_qlSxnkTn",
+        "outputId": "26e5ec2f-8a54-4629-9b8c-03a3fe310d6e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your transport cost:1200\n",
+            "Enter your total budeget:Rs.5000\n",
+            "transport cost Rs : 1200.0\n",
+            "My budget: 5000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stops = []\n",
+        "costs = []\n",
+        "\n",
+        "print(\"Places and costs list created\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1eWvyxRVyVBR",
+        "outputId": "9dfab65d-09d0-4d9c-d4d3-472c691a2503"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Places and costs list created\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = int(input(\"How many places do you want to visit \"))\n",
+        "print(\"I will visit \",number,\"places\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nGGsSCl1y6fk",
+        "outputId": "667b8d67-a4cd-459a-c829-285d6f86459c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "How many places do you want to visit 3\n",
+            "I will visit  3 places\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (number):\n",
+        "  place = input(\"Enter place name:\")\n",
+        "  cost = float(input(\"Enter activity cost:\"))\n",
+        "\n",
+        "  stops.append(place)\n",
+        "  costs.append(cost)\n",
+        "\n",
+        "  print(\"Places:\", stops)\n",
+        "  print(\"Costs:\", costs)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kb16IjZ9zgrt",
+        "outputId": "307ca63c-d9bb-42e7-8752-c86cf271c247"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter place name:Hawa mahal\n",
+            "Enter activity cost:1000\n",
+            "Places: ['Hawa mahal']\n",
+            "Costs: [1000.0]\n",
+            "Enter place name:City palace\n",
+            "Enter activity cost:1000\n",
+            "Places: ['Hawa mahal', 'City palace']\n",
+            "Costs: [1000.0, 1000.0]\n",
+            "Enter place name:Local market\n",
+            "Enter activity cost:1000\n",
+            "Places: ['Hawa mahal', 'City palace', 'Local market']\n",
+            "Costs: [1000.0, 1000.0, 1000.0]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"All places added successfully\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fH2TpD1j4ekr",
+        "outputId": "91678b41-409a-490d-d572-823c0ac0db49"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "All places added successfully\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"=====MY TRIP PLAN=====\")\n",
+        "print(\"destination:\", destination)\n",
+        "print(\"transport cost:\" , transport )\n",
+        "\n",
+        "print(\"places to visit:\")\n",
+        "\n",
+        "for i in range (number):\n",
+        "  print(stops[i],\"Rs.\",costs[i])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pO2tu5Cb4myh",
+        "outputId": "9e72fb7e-d7c9-49bf-d929-c567bdeaa3b9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=====MY TRIP PLAN=====\n",
+            "destination: Jaipur\n",
+            "transport cost: 1200.0\n",
+            "places to visit:\n",
+            "Hawa mahal Rs. 1000.0\n",
+            "City palace Rs. 1000.0\n",
+            "Local market Rs. 1000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if total <= budget:\n",
+        "  print(\"your trip is within budget\")\n",
+        "else:\n",
+        "  print(\"your trip is out of budget\")\n",
+        "  print(\"Extra money needed: Rs\" , total- budget)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TkWT0EhqAuKN",
+        "outputId": "537787bc-b8af-4ccc-9923-68b4a18fe5f7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "your trip is out of budget\n",
+            "Extra money needed: Rs 1500.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7eaACJ3zIo3n"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "CHECKLIST-\n",
+        "\n",
+        "- [] Enter trip destination\n",
+        "- [] Enter trasnport cost\n",
+        "- [] Enter budget\n",
+        "- [] Add places to visit\n",
+        "- [] Enter activity cost\n",
+        "- [] Display trip plan\n",
+        "- [] Calculate total cost\n",
+        "- [] Check budget\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "8t1WZEBzitz3"
+      }
+    }
+  ]
+}

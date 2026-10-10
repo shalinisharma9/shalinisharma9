@@ -135,14 +135,4 @@ Data-Informed Business Decisions
 ```
 
 
-CHECKLIST-
-
-[] Enter trip destination
-[] Enter trasnport cost
-[] Enter budget
-[] Add places to visit
-[] Enter activity cost
-[] Display trip plan
-[] Calculate total cost
-[] Check budget
 
